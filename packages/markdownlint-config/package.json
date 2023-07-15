@@ -28,5 +28,5 @@
     "@commitlint/config-conventional": "^17.6.6",
     "husky": "^8.0.3"
   },
-  "gitHead": "13f76495fbeba3f51ff27e26cf3a28c3caccb542"
+  "gitHead": "a2fd6b2d749c2561b2550693f34ccbca91ba01fd"
 }
