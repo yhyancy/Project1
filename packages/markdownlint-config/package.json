@@ -27,5 +27,6 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "husky": "^8.0.3"
-  }
+  },
+  "gitHead": "13f76495fbeba3f51ff27e26cf3a28c3caccb542"
 }
