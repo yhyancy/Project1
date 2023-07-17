@@ -9,6 +9,7 @@
     "prepare": "husky install",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
+    "test": "lerna run test",
     "build": "lerna run build --stream",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
+    "jest": "^29.6.1",
     "lerna": "^7.1.1",
     "stylelint": "^15.10.1",
     "stylelint-scss": "^5.0.1"
