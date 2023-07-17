@@ -2,10 +2,6 @@ module.exports = {
   defaultSeverity: 'warning',
   plugins: ['stylelint-scss'],
   rules: {
-    /**
-     * Possible errors
-     * @link https://stylelint.io/user-guide/rules/#possible-errors
-     */
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
     'block-no-empty': null,
@@ -44,11 +40,6 @@ module.exports = {
         ignoreUnits: ['rpx'],
       },
     ],
-
-    /**
-     * Stylistic issues
-     * @link https://stylelint.io/user-guide/rules/list#stylistic-issues
-     */
     indentation: 2,
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-before': 'always-single-line',
