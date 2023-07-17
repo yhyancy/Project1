@@ -1,4 +1,4 @@
 module.exports = {
-    extends: ['./packages/commitlint-config/index.js'],
+    extends: ['./packages/y-commitlint-config/index.js'],
 };
   
