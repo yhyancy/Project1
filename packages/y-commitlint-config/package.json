@@ -2,7 +2,6 @@
   "name": "@yhyancy-scope/commitlint-config",
   "version": "0.1.8",
   "description": "> yhyancy- description",
-  "private": true,
   "author": "yhyancy <2397856503@qq.com>",
   "homepage": "https://github.com/yhyancy/Project1#readme",
   "license": "ISC",
