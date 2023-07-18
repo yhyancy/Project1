@@ -1,6 +1,6 @@
 {
   "name": "yhyancy-encode-fe-eslint-config",
-  "version": "0.1.5",
+  "version": "0.1.12",
   "main": "index.js",
   "description": "yhyancy JavaScript TypeScript Node 规范",
   "keywords": [
