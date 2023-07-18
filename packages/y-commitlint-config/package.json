@@ -1,7 +1,7 @@
 {
   "name": "@yhyancy-scope/commitlint-config",
   "version": "0.1.9",
-  "description": "> yhyancy- description",
+  "description": "> yhyancy- description111",
   "author": "yhyancy <2397856503@qq.com>",
   "homepage": "https://github.com/yhyancy/Project1#readme",
   "license": "ISC",
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/yhyancy/Project1/issues"
   },
-  "gitHead": "545bf31d0bc607595f46fb95288f15ab65556a01"
+  "gitHead": "4b5b05f0aed2a237e8670df2522932e25a42647f"
 }
