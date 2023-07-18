@@ -19,6 +19,8 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "jest": "^29.6.1",
     "lerna": "^7.1.1",
