@@ -1,7 +1,7 @@
 'use strict';
 
-const markdownlintConfig = require('..');
+const markdownlintConfig = require('../lib/markdownlint-config');
 const assert = require('assert').strict;
 
-// assert.strictEqual(markdownlintConfig(), 'Hello from markdownlintConfig');
+assert.strictEqual(markdownlintConfig(), 'Hello from markdownlintConfig');
 console.info('markdownlintConfig tests passed');
