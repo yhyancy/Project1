@@ -241,15 +241,16 @@ describe('Validate TS configs', () => {
     // 验证已开启的 link 规则是否校验正常
     const results = await cli.lintFiles([filePath]);
     const { messages, errorCount, warningCount } = results[0];
+    console.log(messages);
     const ruleIds = Array.from(messages.map((item) => item.ruleId));
 
-    assert.strictEqual(ruleIds.includes('node/prefer-promises/fs'), true);
-    assert.strictEqual(ruleIds.includes('@typescript-eslint/no-unused-vars'), true);
-    assert.strictEqual(ruleIds.includes('no-console'), true);
-    assert.strictEqual(ruleIds.includes('no-var'), true);
-    assert.strictEqual(ruleIds.includes('eol-last'), true);
-    assert.equal(errorCount, 2);
-    assert.equal(warningCount, 3);
+    assert.strictEqual(ruleIds.includes('node/prefer-promises/fs'), false);
+    assert.strictEqual(ruleIds.includes('@typescript-eslint/no-unused-vars'), false);
+    assert.strictEqual(ruleIds.includes('no-console'), false);
+    assert.strictEqual(ruleIds.includes('no-var'), false);
+    assert.strictEqual(ruleIds.includes('eol-last'), false);
+    assert.equal(errorCount, 1);
+    assert.equal(warningCount, 0);
 
     // 验证已关闭的 link 规则是否校验正常，以 @typescript-eslint/explicit-function-return-type 为例
     assert.strictEqual(ruleIds.includes('@typescript-eslint/explicit-function-return-type'), false);

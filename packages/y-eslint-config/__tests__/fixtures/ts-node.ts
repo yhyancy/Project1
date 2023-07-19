@@ -1,5 +1,4 @@
-// node/prefer-promises/fs
-import fs from 'fs';
+const fs = require('fs');
 
 fs.readFile('../node.js', 'utf-8', (err, data) => {
   // no-console
@@ -11,7 +10,7 @@ fs.readFile('../node.js', 'utf-8', (err, data) => {
 var count = 1 + 1;
 
 class Test {
-  func(): void {
+  func(): number {
     return 1;
   }
 }
