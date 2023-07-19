@@ -18,7 +18,7 @@
     "url": "git+https://github.com/yhyancy/Project1.git"
   },
   "scripts": {
-    "test": "node ./__tests__/stylelint-config.test.js"
+    "test": "node ./__tests__/rules.validate.test.js"
   },
   "bugs": {
     "url": "https://github.com/yhyancy/Project1/issues"
